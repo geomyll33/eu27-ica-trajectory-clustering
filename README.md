@@ -14,12 +14,9 @@ Code and derived results for the manuscript *"Convergence, Diffusion, or Diverge
 
 ## Data
 
-Source data are **not** included in this repository. Place the following files under `data/` before running:
+The input data are included under `data/`, with sources, Eurostat dataset codes and reuse terms listed in `data/SOURCES.md`. The ICA series is derived by the authors from Eurostat national accounts. The DESI file comes from the European Commission. The Eurostat extracts are unchanged downloads.
 
-- `data/ICA_27_members_until_2023.xlsx`: ICA index series for the 27 Member States, 1995–2023 (compiled from Eurostat).
-- `data/external/`: Eurostat extracts used for the RD analysis (`nama_10r_2gdp_pps_nuts2.csv`, `isoc_r_iuse_i_nuts2.csv`, `isoc_r_broad_h_nuts2.csv`, `demo_r_d2jan_2015_2017.csv`) and the NUTS-2 GDP index file.
-
-Sources: Eurostat (https://ec.europa.eu/eurostat) and the Digital Economy and Society Index (DESI), European Commission. Eurostat data may be reused, including commercially, provided the source is acknowledged and changes are indicated (Eurostat copyright notice). Data identified as coming from other sources may be reused for non-commercial purposes only; check the dataset page for each series. The files in `results/` contain values derived from these sources and are shared under the same acknowledgement requirement.
+Reuse of Eurostat and European Commission data is permitted with acknowledgement of the source. The files in `results/` are derived from these sources and follow the same requirement.
 
 ## Reproduction
 
@@ -40,7 +37,7 @@ Claude Haiku 5.5 (Anthropic) assisted with writing and debugging the code in thi
 
 ## Licence
 
-Code: MIT (see `LICENSE`). Results and figures: CC-BY 4.0. The source data remain subject to the terms of Eurostat and the European Commission.
+Code: MIT (see `LICENSE`). Derived data, results and figures: CC-BY 4.0. Source data remain subject to the Eurostat and European Commission reuse policies listed in `data/SOURCES.md`.
 
 ## Citation
 
