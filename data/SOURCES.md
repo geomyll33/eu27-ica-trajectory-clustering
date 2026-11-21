@@ -14,4 +14,15 @@ All series below are either downloaded from Eurostat or the European Commission 
 | `external/isoc_r_broad_h_nuts2.csv` | Eurostat | ISOC_R_BROAD_H (household broadband access, NUTS 2) | 16/06/24 | No | Robustness (if used) |
 | `external/nuts2_gdp_pps_index_2015_2017.csv` | Derived by the authors from the Eurostat NAMA_10R_2GDP and DEMO_R_D2JAN files, using `external/compute_regional_gdp_index.py` | — | — | Yes | RD analysis (running variable) |
 
+## ICA industry list (NACE Rev. 2)
+
+The ICA series is the sum of gross value added of the following Information and Communication (section J) industries, taken from Eurostat table nama_10_a64 (custom selection 20836965):
+
+- J58: Publishing activities
+- J59_J60: Motion picture, video and television programme production; sound recording; programming and broadcasting activities
+- J61: Telecommunications
+- J62_J63: Computer programming, consultancy and information service activities
+
+Values are in the units used by the source table. The ICA series in the workbook is the authors' compilation from these industries.
+
 Reproduce a Eurostat extract by downloading the dataset code above from https://ec.europa.eu/eurostat/databrowser and keeping the same filter. Cite as: Eurostat (year), dataset title and code, accessed [date].
