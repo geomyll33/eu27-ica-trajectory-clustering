@@ -1,6 +1,6 @@
 # EU-27 digital-economy trajectory clustering (ICA index, 1995–2023)
 
-Code and derived results for the manuscript *"Convergence, Diffusion, or Divergence? A Trajectory-Based Classification of Digital-Economy Development in the EU-27"* (Karavasilis, Myllis, Vrana, Tsimpiris). Status: under review; citation details to be added on acceptance.
+Code and derived results for the manuscript *"Convergence, Diffusion, or Divergence? A Trajectory-Based Classification of Digital-Economy Development in the EU-27"* (Iordanis Karavasilis, Georgios Myllis, Vasiliki Vrana, Alkiviadis Tsimpiris). Status: manuscript in preparation; citation details to be added on publication.
 
 ## Contents
 
@@ -44,4 +44,4 @@ Code: MIT (see `LICENSE`). Results and figures: CC-BY 4.0. The source data remai
 
 ## Citation
 
-If you use this code, please cite the manuscript (citation to be added on acceptance).
+If you use this code, please cite the manuscript (citation to be added on publication).
