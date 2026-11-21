@@ -19,7 +19,7 @@ Source data are **not** included in this repository. Place the following files u
 - `data/ICA_27_members_until_2023.xlsx`: ICA index series for the 27 Member States, 1995–2023 (compiled from Eurostat).
 - `data/external/`: Eurostat extracts used for the RD analysis (`nama_10r_2gdp_pps_nuts2.csv`, `isoc_r_iuse_i_nuts2.csv`, `isoc_r_broad_h_nuts2.csv`, `demo_r_d2jan_2015_2017.csv`) and the NUTS-2 GDP index file.
 
-Sources: Eurostat (https://ec.europa.eu/eurostat) and the Digital Economy and Society Index (DESI), European Commission. Please check the reuse terms on each Eurostat dataset page before redistribution.
+Sources: Eurostat (https://ec.europa.eu/eurostat) and the Digital Economy and Society Index (DESI), European Commission. Eurostat data may be reused, including commercially, provided the source is acknowledged and changes are indicated (Eurostat copyright notice). Data identified as coming from other sources may be reused for non-commercial purposes only; check the dataset page for each series. The files in `results/` contain values derived from these sources and are shared under the same acknowledgement requirement.
 
 ## Reproduction
 
